@@ -1,0 +1,7 @@
+interface:
+  display_name: "方格心情诗 Grid Diary"
+  short_description: "把心情、随笔和日常分享变成按语义编排的手写方格色块海报"
+  icon_large: "./assets/preview.png"
+  default_prompt: "使用 $artifact-template-grid-diary，把我写下的心情或随笔排成一页方格日记。若我还没写正文，请先引导我输入。"
+policy:
+  allow_implicit_invocation: true
