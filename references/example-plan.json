@@ -1,0 +1,17 @@
+{
+  "source": "热闹了一整天，终于安静了。我并不难过，只想把灯关小一点。",
+  "cols": 14,
+  "rows": 20,
+  "paper": "#FAF3DE",
+  "ink": "#625486",
+  "accent": "#272726",
+  "pages": [{
+    "field": [0, 0, 14, 20],
+    "runs": [
+      {"text": "热闹了一整天，", "col": 0, "row": 0, "tile": true},
+      {"text": "终于安静了。", "col": 0, "row": 1, "tile": true},
+      {"text": "我并不难过，", "col": 0, "row": 2, "tile": true},
+      {"text": "只想把灯关小一点。", "col": 0, "row": 4, "tile": true}
+    ]
+  }]
+}
