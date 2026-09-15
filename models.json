@@ -1,0 +1,6 @@
+{
+  "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+  "api_key_env": "ARK_API_KEY",
+  "text": {"name": "豆包 2.0 Lite", "model": "ep-20260914174304-5d8v2"},
+  "image": {"name": "Seedream 5.0 Pro", "model": "ep-20260914155654-cjmcd"}
+}

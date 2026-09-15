@@ -26,7 +26,8 @@
 
 ## 制作方式
 
-- 默认采用参考图驱动的图像生成，适合自由手写和有机物象；生成后需要校对中文。
+- 默认使用豆包 2.0 Lite 理解文本与规划版式，再使用 Seedream 5.0 Pro 参考图生图；生成后需要校对中文。
+- endpoint 集中在 `models.json`，实际调用入口为 `scripts/call_ark.py`。运行前在本地配置 `ARK_API_KEY`，详见 [模型调用与配置](references/ark-models.md)。公开 endpoint ID 不代表拥有调用权限，其他使用者需配置自己账户的 endpoint 和密钥。
 - 随包脚本提供精确格位排版，依赖 Python 3 和 Pillow；它执行版式计划，不自动理解语义。未指定手写字体时可能回退到印刷字体。
 
 ```bash
